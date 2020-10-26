@@ -3,9 +3,12 @@ package ru.kpfu.itis;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Just basic junit test class example with test that is always passing.
+ */
 public class AppTest {
-    @Test()
+    @Test
     public void alwaysPass(){
-        Assertions.assertTrue(false, "Always passing test.");
+        Assertions.assertTrue(true, "Always passing test.");
     }
 }
