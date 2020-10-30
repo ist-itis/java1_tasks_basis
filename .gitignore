@@ -1,3 +1,6 @@
+# GRADLE
+
+# Base
 .gradle
 /build/
 
@@ -18,7 +21,13 @@ gradle-app.setting
 gradlew
 gradlew.bat
 
-#Idea
+
+# IDEA
+
 .idea
 out
 *.iml
+
+
+# Java
+*.class
